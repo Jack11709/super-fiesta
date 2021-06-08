@@ -38,6 +38,8 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/bagel.ico" />
+          <title>South Coast Bagel Company</title>
+          <meta name="description" content="Marketing site for the South Coast Bagel Company and the Bagel Man" />
         </Head>
         <body>
           <Main />
