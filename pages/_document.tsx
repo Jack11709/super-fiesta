@@ -34,11 +34,20 @@ export default class MyDocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+            href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap"
             rel="stylesheet"
           />
           <link rel="shortcut icon" href="/bagel.ico" />
-          <meta name="description" content="Marketing site for the South Coast Bagel Company and the Bagel Man" />
+          <meta
+            name="description"
+            content="Website for the South Coast Bagel Company and the Bagel Man"
+          />
+          <meta property="og:title" content="South Coast Bagel Company" key="ogtitle" />
+          <meta
+            property="og:description"
+            content="Website for the South Coast Bagel Company and the Bagel Man"
+            key="ogdesc"
+          />
         </Head>
         <body>
           <Main />
