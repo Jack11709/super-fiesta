@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styled from 'styled-components'
 
 export default function Home() {
@@ -5,7 +6,21 @@ export default function Home() {
     <HomeContainer>
       <HomeContent>
         <h1>Do you know the Bagel Man?</h1>
-        <h2>Coming Soon</h2>
+        <div>
+          <h2>Follow us on Instagram</h2>
+          <a
+            href="https://www.instagram.com/doyouknowthebagelman/"
+            rel="no-opener noreferrer"
+            target="_blank"
+          >
+            <Image
+              src="/instagram.png"
+              alt="Instagram"
+              height={60}
+              width={60}
+            />
+          </a>
+        </div>
       </HomeContent>
     </HomeContainer>
   )

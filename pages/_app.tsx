@@ -1,9 +1,13 @@
 import { AppProps } from 'next/app'
+import Head from 'next/head'
 import { createGlobalStyle } from 'styled-components'
 
 export default function NextApp({ Component, pageProps }: AppProps) {
   return (
     <>
+      <Head>
+        <title>South Coast Bagel Company</title>
+      </Head>
       <GlobalStyle />
       <Component {...pageProps} />
     </>
